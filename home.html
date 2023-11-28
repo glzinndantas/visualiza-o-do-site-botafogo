@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="imagex/png" href="Imagens/logoBotago.png"/>
+    <link href="CSS/pghome.css" rel="stylesheet">
+    <script src="Scripts/pghome.js" defer></script>
+    <title>Botafogo</title>
+</head>
+<body>
+    <header id="headerHome">
+        <h1>
+            Atletas Botafogo 2023.2
+        </h1>
+        <button id="botaoSair" onclick="botaoSair()">Logout</button>
+    </header>
+
+    <div id="opcaoElencos">
+        <button id="botaoelencos" onclick="elencoT()">Elenco Completo</button>
+        <button id="botaoelencos" onclick="elencoM()">Masculino</button>
+        <button id="botaoelencos" onclick="elencoF()">Feminino</button>
+    </div>
+    <select id="escolherElenco" onchange="selectOp()">
+        <option value="nulo">Selecione um elenco</option>
+        <option value="elencoCompleto">Elenco Completo</option>
+        <option value="feminino">Feminino</option>
+        <option value="masculino">Masculino</option>
+    </select>
+    <div id="containerCartoes">
+
+    </div>
+
+
+</body>
+</html>

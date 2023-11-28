@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+#voltarElenco{
+ background-color: rgb(37, 34, 34);
+ color:white;
+ width: 99vw;
+ height: 150px;
+ font-size: 2em;
+ text-align: center;
+ border: 0;
+ cursor: pointer;
+}
+body{
+    background-color: black;
+    margin: 8px;
+}
+
+#nomeJog{
+    margin: 0;
+    color:white;
+
+}
+#divPrincipal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        gap: 1rem;
+        
+    }
+}
+#divJog{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(0, 0, 0);  
+    margin: 15px;
+    width: 50%;
+    text-align: center;
+    width: 505px; 
+    margin-left: auto;
+    margin-right: auto;
+    gap: 1rem;
+}
+#posJog{
+    margin: 8px;
+    color:white;
+    text-transform: uppercase;
+}
+#divInfoJog{
+    margin: 1px;
+    font-size: 1.4em;
+    color: white;
+}
+#descricaoJog{
+    font-family: 'Poppins', sans-serif;
+    
+}
+#volteDet{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+}
+#nomeCJog{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    gap: 1rem;
+}
+#nascimentoJog{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    gap: 1rem;
+}
+#alturaJog{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    gap: 1rem;
+}
